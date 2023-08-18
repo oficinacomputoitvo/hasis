@@ -1,0 +1,15 @@
+.pagination > .active >.page-link {
+    color: white;
+    background-color:#1B396A;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+    z-index: 3;
+    color: yellow;
+    background-color:#1B396A;
+    border-color: yellow;
+    box-shadow: 3px 0px 20px rgba(163,163,163, 1);
+}
